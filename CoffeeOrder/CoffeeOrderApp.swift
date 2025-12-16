@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct CoffeeOrderApp: App {
+    
+    @State private var orderVM: OrderViewModel
+    
+    init() {
+        var config = Configuration()
+        let fetchService = FetchService(baseURL: config.environment.baseURL)
+        _orderVM = State(wrappedValue: OrderViewModel(fetchService: fetchService))
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(orderVM)
         }
     }
 }

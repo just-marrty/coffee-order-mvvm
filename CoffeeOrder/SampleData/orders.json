@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "name": "Nikola",
+        "coffee_name": "Espresso",
+        "total": "50.00",
+        "size": "Small",
+        "created_at": "2025-12-13T09:05:00Z"
+    },
+    {
+        "id": 1,
+        "name": "Martin",
+        "coffee_name": "Latte",
+        "total": "75.00",
+        "size": "Medium",
+        "created_at": "2025-12-13T09:00:00Z"
+    }
+]
