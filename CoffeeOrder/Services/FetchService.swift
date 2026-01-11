@@ -16,7 +16,6 @@ enum NetworkError: Error {
     case missingID
 }
 
-@MainActor
 class FetchService {
     
     private let baseURL: URL
