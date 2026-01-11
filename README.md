@@ -64,7 +64,6 @@ The project demonstrates modern SwiftUI patterns and MVVM architecture with depe
 - HTTP status code validation (200-299 range)
 - Content-Type header management for JSON
 - Dependency injection via constructor (receives baseURL)
-- `@MainActor` for thread-safe operations
 
 ### ViewModel
 
